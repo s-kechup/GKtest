@@ -1,0 +1,110 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  max-width: 1170px;
+  margin:0 auto;
+}
+
+
+.header{
+  background-color:#26d0c9;
+  height:70px;
+  color:#fff;
+}
+.header a{
+  color:white;
+  display: block;
+  line-height: 70px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+.header-logo{
+  float:left;
+  padding:0 40px;
+  font-size:26px;
+}
+
+.header-list li{
+  float:left;
+  padding: 0 20px;
+
+}
+
+
+
+.home-title{
+  text-align: left;
+  border-bottom: 3px solid rgba(38,208,201,1);
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+.home-photo{
+  width:96%;
+  margin: 0 auto;
+}
+
+.group-img{
+  width:100%;
+}
+
+.home-news{
+    padding-top: 30px;
+}
+
+.home-news span{
+  display: inline-block;
+  width:15em;
+  padding-left: 10px;
+
+    font-weight: normal;
+    display: inline-block;
+    width:10em;
+
+  }
+
+
+
+
+
+
+
+.footer{
+  margin-top: 30px;
+  padding:20px 40px;
+  background-color:#006a66;
+  color:#fff;
+  height:40px;
+}
+
+.footer-logo{
+  float:left;
+  font-size:32px;
+}
+
+.footer-contents{
+  float:right;
+  line-height: 40px;
+}
+
+.footer-contents a{
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+
+}
